@@ -1,0 +1,84 @@
+/** Main Elements **/
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #747704;
+  font-weight: 600;
+}
+
+hr {
+  color: #620335;
+  background-color: #620335;
+  width: 90%;
+  height: 2px;
+}
+
+/** User created Classes **/
+.title-super {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.8em;
+  padding-top: 0.8em;
+}
+
+.title-logo {
+  margin-top: 28px;
+  width: 100px;
+  height: 100px;
+}
+
+.project-modal {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.project-modal a {
+  color: #80184f;
+}
+
+.project-modal a:hover {
+  color: #240013;
+}
+
+/** Personalized Bootstrap Classes **/
+.text-muted {
+  color: #989c1d;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.modal-body img {
+  margin-bottom: 10px;
+}
+
+.modal-title {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.modal-body {
+  font-size: 1.4em;
+}
+
+/** Media Query Alterations **/
+@media screen and (max-width: 770px) {
+  .portfolio-heading {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .title-super {
+    font-size: 2.2em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .title-super {
+    font-size: 1.7em;
+    padding-top: 1.7em;
+  }
+  .title-secondary {
+    font-size: 1.0em;
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Casey Glisson's Portfolio</title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--Header-->
+      <header class="row">
+        <section class="col-xs-2 col-md-2">
+          <img class="title-logo" src="images/cg.png" alt="Casey Glisson's logo.">
+        </section>
+        <section class="col-xs-10 col-md-10 text-right text-uppercase title">
+          <h1 class="title-super text-thin">Casey Glisson</h1>
+          <h4 class="title-secondary">Front-end Designer</h4>
+        </section>
+      </header>
+      <!--Start of Main Content-->
+      <section class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </section>
+      <!--Wallpaper Banner-->
+      <section class="row">
+        <div class="col-xs-12 col-md-12">
+          <img class="img-responsive" src="images/monitor-1280.jpg" alt="Cartoon picture of a monitor.">
+        </div>
+      </section>
+      <!--Portfolio Heading-->
+      <section class="row portfolio-heading">
+        <div class="col-xs-12 col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </section>
+      <!--Portfolio Projects-->
+      <section class="row text-center">
+        <!--Project 1-->
+        <article class="col-sm-4 col-md-4 project-modal">
+          <img class="img-responsive" src="images/internet-640.png" alt="Picture of HTML5." data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase">Project 1</h3>
+          <a href="https://github.com">https://github.com/udacity/project1</a>
+        </article>
+        <!--Project 2-->
+        <article class="col-sm-4 col-md-4 project-modal">
+          <img class="img-responsive" src="images/javascript-640.png" alt="Picture of JS - Javascript." data-toggle="modal" data-target="#project2">
+          <h3 class="text-uppercase">Project 2</h3>
+          <a href="https://github.com">https://github.com/udacity/project2</a>
+        </article>
+        <!--Project 3-->
+        <article class="col-sm-4 col-md-4 project-modal">
+          <img class="img-responsive" src="images/zombie-640.png" alt="Picture of a zombie." data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase">Project 3</h3>
+          <a href="https://github.com">https://github.com/udacity/project3</a>
+        </article>
+      </section>
+    </div>
+    <!-- Bootstrap Modals -->
+    <!--Project 1 Modal-->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel1">Project 1</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/internet-1280.png" alt="Picture of HTML5">
+            <p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Project 2 Modal-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel2">Project 2</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/javascript-1280.png" alt="Picture of JS - Javascript.">
+            <p>This was my second project in this class. I learned a lot about javascript and jQuery.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Project 3 Modal-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel3">Project 3</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/zombie-1280.png" alt="Picture of a zombie.">
+            <p>This was my third project in this class. I learned a lot more about javascript and HTML5 canvas.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
